@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: url(back.png);
+}
+h1{
+    color: rgb(49, 68, 3);
+}
+.iphoneX
+{   margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 90%;
+    background: rgb(255, 255, 255);
+    border-radius: 34px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,.2), 0 40px 100px rgba(0,0,0,.4);
+}
+.center {
+    text-align: center;
+    border: 3px solid rgb(4, 103, 133);
+    padding: 10px;
+    background-color: rgb(152, 231, 255);
+    border-radius: 10px;
+    display: absolute;
+
+  }
+  a{
+      color: rgb(0, 4, 255);
+      text-decoration: teal;
+      
+  }
+  a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+  }
+.imag {
+    border-radius: 50%;
+    image-rendering: optimizeSpeed;
+    width: 100px;
+    height: 100px;
+  }
+#links{
+    line-height: 350%;
+}
+#zoom 
+{
+    transition: transform .2s; /* Animation */
+}
+  
+#zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.icons
+{
+  font-size: 34px;
+  letter-spacing: 10px;
+}
